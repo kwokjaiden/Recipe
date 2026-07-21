@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: beige;
+}
+
+h1 {
+    background-color: khaki;
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+    padding: 20px;
+    margin-top: 0%;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: grid;   
+    grid-template-columns: 150px 200px 200px 200px 150px; 
+    justify-content: space-evenly;
+}
+
+.a1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.a2{
+    grid-column-start: 3;
+    grid-column-end:  6;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+ul{
+    font-size: 20px;
+}
+
+ol{
+    font-size: 20px;
+}
