@@ -2,11 +2,11 @@
     font-family: Arial, sans-serif;
 }
 
-body {
+body{
     background: beige;
 }
 
-h1 {
+h1{
     background-color: khaki;
     text-align: center;
     padding: 30px;
@@ -21,7 +21,7 @@ p{
     text-align: center;
 }
 
-.container {
+.container{
     display: grid;   
     grid-template-columns: 150px 200px 200px 200px 150px; 
     justify-content: space-evenly;
@@ -37,7 +37,7 @@ p{
     grid-column-end:  6;
 }
 
-h2 {
+h2{
     font-size: 38px;
     margin-bottom: 15px;
     padding: 30px;
